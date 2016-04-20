@@ -1,0 +1,5 @@
+<screen name="MessageSetting" position="0,0" size="1280,800" title="Autosetting" backgroundColor="#ff000000" flags="wfNoBorder" >
+	<eLabel position="0,0" size="1280,800" backgroundColor="#10101010" zPosition="0" />
+	<widget source="session.VideoPicture" render="Pig" position="0,50" size="1280,800" backgroundColor="#df0b1300" zPosition="2" />	
+	<widget name="text" position="0,20" size="1280,40" font="Regular;22" halign="center" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="10" />
+</screen>

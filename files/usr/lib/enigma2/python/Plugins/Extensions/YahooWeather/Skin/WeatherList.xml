@@ -1,0 +1,11 @@
+<screen name="YahooWeatherList" position="30,25" size="1220,670" title="Yahoo Weather list" backgroundColor="#10000000" flags="wfNoBorder">
+        <ePixmap position="20,17"   size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/yh.png" alphatest="blend" transparent="1" />
+	<widget name="titleheader" position="0,13" size="1280,40" font="Regular;34" foregroundColor="#ffffff" backgroundColor="#000000" halign="center" valign="top" transparent="1" zPosition="1" />
+	<eLabel  position="0,65" size="1280,5" backgroundColor="#FF000000" zPosition="1" />
+	<widget name="myMenu" position="20,100" size="1185,510" scrollbarMode="showOnDemand" itemHeight="30" transparent="1" />
+	<eLabel  position="0,625" size="1280,5" backgroundColor="#FF000000" zPosition="1" />
+	<ePixmap position="40,638"  pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/redpanel.png"   size="22,22" alphatest="blend" zPosition="2" />
+	<widget  position="75,638"  size="210,32" name="Key_Red"   font="Regular;22" halign="left" backgroundColor="black" zPosition="1" transparent="1" />
+	<ePixmap position="280,638" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/greenpanel.png" size="22,22" alphatest="blend" zPosition="2" />
+	<widget  position="315,638" size="210,32" name="Key_Green" font="Regular;22" halign="left" backgroundColor="black" zPosition="1" transparent="1" />
+</screen>

@@ -1,0 +1,75 @@
+<screen name="NGsettingE2" position="center,center" size="1100,600" title="Main Menu" backgroundColor="#ff000000" flags="wfNoBorder" >
+	<!-- Parte Superiore / Nome del settingman -->
+	<eLabel position="10,0" size="1090,45" backgroundColor="#10101010" zPosition="0" /> <!-- Selezione Blu sulla destra -->
+	<eLabel position="10,0" size="1,45"    backgroundColor="#20202020" zPosition="0" />
+	<eLabel position="10,0" size="1090,1"  backgroundColor="#20202020" zPosition="0" />
+
+	<!-- Text Maintain -->
+	<widget name="text" position="1,5" size="282,40" font="Regular;30" halign="center" foregroundColor="ltbluette" backgroundColor="#10202020" transparent="1" zPosition="3" />
+	
+	<!-- Clock -->
+	<widget source="global.CurrentTime" render="Label" position="900,10" size="230,30" font="Regular;30"  zPosition="2" foregroundColor="ltbluette" backgroundColor="#202020" halign="center" transparent="1">
+		<convert type="ClockToText">Format %H:%M:%S</convert>
+	</widget>
+
+	<!-- Linea marcatrice pannello A --> 
+	<eLabel position="0,290"  size="250,5"  backgroundColor="#FF101010" zPosition="1" />
+
+<!-- Panel Menu SettingMan / Tutta la parte sinistra -->
+	<eLabel position="10,50" size="235,650" backgroundColor="#10101010" zPosition="0" /> 
+	<eLabel position="10,50" size="1,650" backgroundColor="#20303030" zPosition="0" />
+	<eLabel position="10,50" size="235,1" backgroundColor="#20303030" zPosition="0" />
+
+	<!-- Lists - Mono/dual etc.. -->
+	<widget name="A" position="6,52" size="237,400" enableWrapAround="1"  transparent="1" zPosition="5" />
+
+<!-- Panel Sfondo NERO Setting Lists / Pannello sulla destra -->
+	<eLabel position="250,50"  size="890,465" backgroundColor="#10101010" zPosition="0" />
+	<eLabel position="250,50"  size="1,390"   backgroundColor="#303030"   zPosition="0" />
+	<eLabel position="250,50"  size="890,1"   backgroundColor="#303030"   zPosition="0" />
+
+	<!-- Lists B - Le info scritte sulle destra -->
+	<widget name="B"  position="260,55" size="900,460" scrollbarMode="showNever" enableWrapAround="1" transparent="1" zPosition="5" foregroundColor="#5dafff" foregroundColorSelected="#ffffff" backgroundColor="#303030" backgroundColorSelected="#002f72" />
+
+<!-- Panel Sfondo NERO / Parte in Basso a destra -->
+	<eLabel position="250,520"  size="890,80" backgroundColor="#10101010" zPosition="0" />
+	<eLabel position="250,520"  size="1,80"   backgroundColor="#303030"   zPosition="0" />
+	<eLabel position="250,520"  size="890,1"   backgroundColor="#303030"   zPosition="0" />
+
+	<!-- Setting Installed Text / Update -->
+	<widget position="260,520" size="250,24" name="Key_GreenX" font="Regular;20" halign="left" foregroundColor="ltbluette" backgroundColor="#101010" zPosition="1" transparent="1" />
+	<widget position="475,520" size="640,31" name="dataDow"    font="Regular;20" halign="left" foregroundColor="#ffffff"   backgroundColor="#101010" zPosition="3" transparent="1" />
+
+	<widget position="260,545" size="250,24" name="Key_Green"  font="Regular;20" halign="left" foregroundColor="ltbluette" backgroundColor="#101010" zPosition="1" transparent="1" />
+	<widget position="475,545" size="640,50" name="namesat"    font="Regular;20" halign="left" foregroundColor="#ffffff"   backgroundColor="#101010" zPosition="3" transparent="1" />
+
+<!-- Panel Info / Parte in Basso a sinistra -->
+	<!-- Setting Menu Button -->
+	<widget  position="15,312" size="40,30"  name="Menu" pixmap="buttons/key_menu.png" zPosition="2" alphatest="blend" />
+	<widget  position="60,314" size="205,24" name="Key_Menu" font="Regular;20" halign="left" foregroundColor="#808080" backgroundColor="#101010" zPosition="1" transparent="1" />
+	
+	<!-- AutoUpdate Blue Button -->
+	<widget  position="20,350" size="30,30"  name="Blue" pixmap="buttons/bluepanel.png" zPosition="2" alphatest="blend" />
+	<widget  position="60,349" size="205,30" name="autotimer" font="Regular;20" halign="left" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="3" />
+
+	<!-- Personal Yellow Button -->
+	<widget  position="20,385" size="30,30"  name="Yellow" pixmap="buttons/yellowpanel.png" zPosition="2" alphatest="blend" />
+	<widget  position="60,384" size="205,24" name="Key_Personal" font="Regular;20" halign="left" foregroundColor="#808080" backgroundColor="#101010" zPosition="1" transparent="1" />
+
+	<!-- Lcn Green Button -->
+	<widget  position="20,420" size="30,30"  name="Green" pixmap="buttons/greenpanel.png" zPosition="2" alphatest="blend" />
+	<widget  position="60,419" size="205,24" name="Key_Lcn" font="Regular;20" halign="left" foregroundColor="#808080" backgroundColor="#101010" zPosition="1" transparent="1" />
+
+	<!-- Exit Button -->
+	<ePixmap position="20,455" size="30,30" pixmap="buttons/redpanel.png" zPosition="2" alphatest="blend" />
+	<widget  position="60,454" size="205,24" name="Key_Red" font="Regular;20" halign="left" foregroundColor="#808080" backgroundColor="#101010" zPosition="1" transparent="1" />
+
+	<!-- 1 Button -->
+	<widget position="20,490" size="30,30" name="1" pixmap="buttons/key_1.png" zPosition="2" alphatest="blend" />
+	<widget  position="60,489" size="205,24" name="Key_1" font="Regular;20" halign="left" foregroundColor="#808080" backgroundColor="#101010" zPosition="1" transparent="1" />
+
+	<!-- 2 Button -->
+	<widget position="20,525" size="30,30" name="2" pixmap="buttons/key_2.png" zPosition="2" alphatest="blend" />
+	<widget  position="60,524" size="205,24" name="Key_2" font="Regular;20" halign="left" foregroundColor="#808080" backgroundColor="#101010" zPosition="1" transparent="1" />
+
+</screen>

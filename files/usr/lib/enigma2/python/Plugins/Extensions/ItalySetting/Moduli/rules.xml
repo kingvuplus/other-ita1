@@ -1,0 +1,27 @@
+<rules>
+	<ruleset name="Italy">
+		<rule type="marker" position="0" positionfin="9">Intrattenimento</rule>
+		<rule type="marker" position="10" positionfin="19">Emittenti Locali</rule>
+		<rule type="marker" position="20" positionfin="39">Generali</rule>
+		<rule type="marker" position="40" positionfin="47">Bambini e Ragazzi</rule>
+		<rule type="marker" position="48" positionfin="56">Informazione e Cultura</rule>
+		<rule type="marker" position="57" positionfin="65">Sport</rule>
+		<rule type="marker" position="66" positionfin="70">Musica</rule>
+		<rule type="marker" position="71" positionfin="100">Emittenti Regionali</rule>
+		<rule type="marker" position="101" positionfin="103">Canali Test</rule>
+		<rule type="marker" position="104" positionfin="299">Emittenti Regionali</rule>
+		<rule type="marker" position="300" positionfin="310">Mediaset Premium</rule>
+		<rule type="marker" position="311" positionfin="318">Mediaset Premium - Intrattenimento</rule>
+		<rule type="marker" position="319" positionfin="320">Mediaset Premium - Grande Fratello</rule>
+		<rule type="marker" position="321" positionfin="329">Mediaset Premium - Cultura</rule>
+		<rule type="marker" position="330" positionfin="349">Mediaset Premium - Cinema</rule>
+		<rule type="marker" position="350" positionfin="369">Mediaset Premium - Bambini</rule>
+		<rule type="marker" position="370" positionfin="399">Mediaset Premium - Calcio</rule>
+		<rule type="marker" position="400" positionfin="451">Hot Nitegate</rule>
+		<rule type="marker" position="452" positionfin="499">Luci Rosse TV</rule>
+		<rule type="marker" position="500" positionfin="804">Nazionali</rule>
+		<rule type="marker" position="805" positionfin="999">Canali Dati</rule>
+		<rule type="marker" position="1000" positionfin="16633">Regionali</rule>
+		<rule type="marker" position="16634" positionfin="999999999">Duplicati</rule>
+	</ruleset>
+</rules>

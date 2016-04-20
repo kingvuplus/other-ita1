@@ -1,0 +1,28 @@
+<screen name="Enigma2Settings" position="center,center" size="560,390" title="Main Menu" backgroundColor="#ff000000" flags="wfNoBorder" >
+	<eLabel position="10,0" size="239,44" backgroundColor="#10101010" zPosition="0" />
+	<eLabel position="10,0" size="1,44"   backgroundColor="#20202020" zPosition="0" />
+	<eLabel position="10,0" size="239,1"  backgroundColor="#20202020" zPosition="0" />
+	<eLabel text="Original Setting" position="10,5" size="239,44" font="Regular;26" halign="center" foregroundColor="#ffffff" backgroundColor="#272e43" transparent="1" zPosition="1" />
+	
+	
+	<eLabel position="253,0" size="239,44" backgroundColor="#10101010" zPosition="0" />
+	<eLabel position="253,0" size="1,44"   backgroundColor="#20202020" zPosition="0" />
+	<eLabel position="253,0" size="239,1"  backgroundColor="#20202020" zPosition="0" />	
+	<eLabel text="ItalySat Setting" position="253,5" size="239,44" font="Regular;26" halign="center" foregroundColor="#ffffff" backgroundColor="#272e43" transparent="1" zPosition="1" />
+	
+	<!-- Panel Menu SettingMan -->
+	<eLabel position="10,50" size="239,340" backgroundColor="#10101010" zPosition="0" /> 
+	<eLabel position="10,50" size="1,440" backgroundColor="#20303030" zPosition="0" />
+	<eLabel position="10,50" size="239,1" backgroundColor="#20303030" zPosition="0" />
+	 
+	<!-- Panel Menu SettingMan Ibrido-->
+	<eLabel position="253,50" size="239,340" backgroundColor="#10101010" zPosition="0" /> 
+	<eLabel position="253,50" size="1,440" backgroundColor="#20303030" zPosition="0" />
+	<eLabel position="253,50" size="239,1" backgroundColor="#20303030" zPosition="0" />
+	
+	<!-- Lists -->
+	<widget name="A"  position="6,52" size="244,387" scrollbarMode="showNever" enableWrapAround="1" transparent="1" zPosition="5" foregroundColor="#5dafff" foregroundColorSelected="#ffffff" backgroundColor="#303030" backgroundColorSelected="#002f72" />
+
+	<!-- Lists -->
+	<widget name="B"  position="253,52" size="244,387" scrollbarMode="showNever" enableWrapAround="1" transparent="1" zPosition="5" foregroundColor="#5dafff" foregroundColorSelected="#ffffff" backgroundColor="#303030" backgroundColorSelected="#002f72" />
+</screen>

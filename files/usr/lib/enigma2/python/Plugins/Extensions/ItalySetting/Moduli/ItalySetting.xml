@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>	
+	<rule Name="Vhannibal" Url="http://settings.italysat.eu/vhannibal.php" FolderDtt="yes" NameFolderDtt="Digitale Terrestre" Setting="Mono,hot-Dual,dual-Trial,trial-Quadri,quadri-Motor,motor"></rule>
+	<rule Name="Manutek" Url="http://settings.italysat.eu/manutek.php" FolderDtt="yes" NameFolderDtt="[DIGITALE TERRESTRE DTT]" Setting="Mono,mono-Dual,dual"></rule>
+	<rule Name="Cyrus" Url="http://settings.italysat.eu/cyrus.php" FolderDtt="no" NameFolderDtt="CST® DTT" Setting="Mono,mono-Dual,dual-Trial,trial-Four,four-Motor,motor"></rule>
+	<rule Name="Giusi" Url="http://settings.italysat.eu/giusi.php" FolderDtt="no" NameFolderDtt="Digitale Terrestre" Setting="Mono,mono-Dual,dual"></rule>
+	<rule Name="Morpheus" Url="http://settings.italysat.eu/morpheus.php" FolderDtt="no" NameFolderDtt="[Dtt] Digitale Terrestre" Setting="Mono,mono-Dual,dual-Trial,trial-Quadri,quad-Motor,motor"></rule>
+	<rule Name="Corvone" Url="http://settings.italysat.eu/corvone.php" FolderDtt="no" NameFolderDtt="[Dtt] Digitale Terrestre" Setting="Mono,mono-Dual,dual-Motor,motor"></rule>
+</rules>

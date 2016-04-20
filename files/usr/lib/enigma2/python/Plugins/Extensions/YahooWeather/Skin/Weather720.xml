@@ -1,0 +1,141 @@
+<screen name="YWeather" position="center,center" size="1280,720" title="YWeather" backgroundColor="#ff000000" flags="wfNoBorder" >
+	<ePixmap position="0,0"   size="1280,720" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/100.png" alphatest="blend" transparent="1" />
+	<ePixmap position="70,38" size="69,40"    pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/yh.png"  alphatest="blend" transparent="1" />
+	<!-- Data Provider -->
+	<widget name="lab1"   position="140,38" size="300,34" zPosition="1" font="Regular;26" foregroundColor="yellow"  backgroundColor="#10000000" transparent="1" />
+	<widget name="lab1b"  position="340,38" size="520,38" zPosition="1" font="Regular;26" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" />
+	<!-- BigIcon Weather -->
+	<widget name="lab5" position="145,90" size="170,152" alphatest="blend" zPosition="2" />
+	<widget name="lab6" position="330,205" halign="left" size="400,40" zPosition="1" font="Regular;28" valign="top" foregroundColor="white" backgroundColor="#000000" transparent="1" />
+	<!-- Temperature -->
+	<ePixmap position="330,100" size="17,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/temp.png" alphatest="blend" transparent="1" />
+	<widget name="lab4"   position="365,103" halign="left" size="180,80" font="Regular;46" foregroundColor="yellow" backgroundColor="#000000" valign="top" transparent="1" zPosition="2" />
+	<widget name="lab4b"  position="430,107" halign="left" size="40,55"  font="Regular;24" foregroundColor="red"    backgroundColor="#10000000"  valign="top" transparent="1" zPosition="2" />
+	<!-- Wind -->
+	<ePixmap position="330,160" size="30,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/wind.png" alphatest="blend" transparent="1" />
+	<widget name="lab12"  position="365,165" size="0,0"    font="Regular;24" halign="left" valign="top" foregroundColor="#8F8F8F" backgroundColor="#000000" transparent="1" zPosition="2" />
+	<widget name="lab12b" position="365,165" size="350,28" font="Regular;24" halign="left" valign="top" foregroundColor="white"   backgroundColor="#000000" transparent="1" zPosition="1" />
+	<!-- ForeCast City -->
+	<ePixmap position="55,205"  size="110,90" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/city.png" alphatest="blend" zPosition="2"/>
+	<eLabel  position="170,246" size="600,49" backgroundColor="#1b3c85" zPosition="1" />
+	<widget  position="180,246" size="590,49" name="lab2"  font="Regular;26" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#1b3c85" transparent="0" zPosition="2" />
+	<widget  position="180,246" size="590,49" name="lab23" font="Regular;26" halign="left" valign="center" foregroundColor="yellow"  backgroundColor="#1b3c85" transparent="1" zPosition="2" />
+	<!-- Separators -->
+	<eLabel  position="800,100" size="2,510" backgroundColor="#303030" zPosition="1" />
+	<eLabel  position="55,310" size="715,1" backgroundColor="#303030" zPosition="1" />
+	<!-- Humidity -->
+	<widget name="lab7"   position="65,320"  halign="left" size="150,26" zPosition="1" font="Regular;24" valign="top" foregroundColor="white" backgroundColor="#000000" transparent="1" />
+	<widget name="lab7b"  position="235,320" halign="left" size="280,26" zPosition="1" font="Regular;24" foregroundColor="#49bbff" backgroundColor="#000000" valign="top" transparent="1" />
+	<!-- Pressure -->
+	<widget name="lab8"   position="65,360"  halign="left" size="150,24" zPosition="1" font="Regular;24" valign="top" foregroundColor="white" backgroundColor="#000000" transparent="1" />
+	<widget name="lab8b"  position="235,360" halign="left" size="285,24" zPosition="1" font="Regular;24" foregroundColor="#49bbff" backgroundColor="#000000" valign="top" transparent="1" />
+	<!-- Visibility -->
+	<widget name="lab9"   position="65,400"  halign="left" size="150,24" zPosition="1" font="Regular;24" valign="top" foregroundColor="white" backgroundColor="#000000" transparent="1" />
+	<widget name="lab9b"  position="235,400" halign="left" size="285,24" zPosition="1" font="Regular;24" foregroundColor="#49bbff" backgroundColor="#000000" valign="top" transparent="1" />
+	<!-- Sunrise -->
+	<widget name="lab10"  position="65,440"  halign="left" size="150,24" zPosition="1" font="Regular;24" valign="top" foregroundColor="white" backgroundColor="#000000" transparent="1" />
+	<widget name="lab10b" position="235,440" halign="left" size="285,24" zPosition="1" font="Regular;24" foregroundColor="#49bbff" backgroundColor="#000000" valign="top" transparent="1" />
+	<!-- Sunset -->
+	<widget name="lab11"  position="65,480"  halign="left" size="150,24" zPosition="1" font="Regular;24" valign="top" foregroundColor="white" backgroundColor="#000000" transparent="1" />
+	<widget name="lab11b" position="235,480" halign="left" size="285,24" zPosition="1" font="Regular;24" foregroundColor="#49bbff" backgroundColor="#000000" valign="top" transparent="1" />
+	<!-- Latitude -->
+	<widget name="lab24"  position="450,320"  halign="left" size="150,28" zPosition="1" font="Regular;24" foregroundColor="#8F8F8F"   backgroundColor="black" transparent="1" />
+	<widget name="lab24b" position="630,320"  halign="left" size="150,28" zPosition="1" font="Regular;24" foregroundColor="#49bbff" backgroundColor="black" transparent="1" />
+	<!-- Longitude -->
+	<widget name="lab25"  position="450,360"  halign="left" size="150,28" zPosition="1" font="Regular;24" foregroundColor="#8F8F8F"   backgroundColor="black" transparent="1" />
+	<widget name="lab25b" position="630,360"  halign="left" size="150,28" zPosition="1" font="Regular;24" foregroundColor="#49bbff" backgroundColor="black" transparent="1" />
+	<!-- Region -->
+	<widget name="lab26"  position="450,400"  halign="left" size="150,28" zPosition="1" font="Regular;24" foregroundColor="#8F8F8F"   backgroundColor="black" transparent="1" />
+	<widget name="lab26b" position="630,400"  halign="left" size="150,28" zPosition="1" font="Regular;24" foregroundColor="#49bbff" backgroundColor="black" transparent="1" />
+	<!-- Country -->
+	<widget name="lab27"  position="450,440"  halign="left" size="350,28" zPosition="1" font="Regular;24" foregroundColor="#8F8F8F"   backgroundColor="black" transparent="1" />
+	<!-- widget name="lab27b" position="630,440"  halign="left" size="150,28" zPosition="1" font="Regular;24" foregroundColor="#49bbff" backgroundColor="black" transparent="1" /-->
+	<!-- UpDate Meteo -->
+	<widget name="lab3"   position="70,580"  size="540,40" zPosition="1" font="Regular;24" halign="left" foregroundColor="#404040" backgroundColor="#10000000" transparent="1" />
+	<!-- Data Forecast-->
+	<eLabel text="Meteo ForeCast" position="740,33" size="550,38" font="Regular;34" halign="center" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 1Day Pic -->
+	<widget name="lab17"  position="830,90" size="80,70" zPosition="1" alphatest="blend" />
+	<!-- ForeCast 1Day Day -->
+	<widget name="lab13"  position="930,95" halign="left" size="430,40" zPosition="1" font="Regular;22" foregroundColor="white" backgroundColor="#000000" transparent="1"  />
+        <!-- ForeCast 1Day Date -->
+	<widget name="daydate0" position="1020,95" size="200,40" font="Regular;22" halign="right" foregroundColor="yellow" backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 1Day Description -->
+	<widget name="lab16"  position="930,125" halign="left" size="300,30" zPosition="1" font="Regular;24" foregroundColor="#49bbff" backgroundColor="#000000" transparent="1"  />
+	<!-- ForeCast 1Day Temp Heigh -->
+	<widget name="lab14"  position="930,155"  halign="left" size="65,28" zPosition="1" font="Regular;20" foregroundColor="white" backgroundColor="#000000" transparent="1" />\
+	<widget name="lab14b" position="1000,155"  halign="left" size="90,28" zPosition="1" font="Regular;20" foregroundColor="red"     backgroundColor="#000000" transparent="1" />
+	<!-- ForeCast 1Day Temp Low -->
+	<widget name="lab15"  position="1090,155" halign="left" size="65,28" zPosition="1" font="Regular;20" foregroundColor="white" backgroundColor="#000000" transparent="1" />
+	<widget name="lab15b" position="1150,155" halign="left" size="90,28" zPosition="1" font="Regular;20" foregroundColor="blue"    backgroundColor="#000000" transparent="1" />
+	<!-- ForeCast 2Day Pic -->
+	<widget name="lab22"    position="830,200" size="80,70" zPosition="1" alphatest="blend" transparent="1" />
+	<!-- ForeCast 2Day Day -->
+	<widget name="lab18"    position="930,205"  halign="left" size="430,40" font="Regular;22" foregroundColor="white" backgroundColor="#000000" transparent="1" zPosition="1" />
+        <!-- ForeCast 2Day Date -->
+	<widget name="daydate1" position="1020,205" halign="right" size="200,40" font="Regular;22" foregroundColor="yellow" backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 2Day Description -->
+	<widget name="lab21"    position="930,235"  halign="left" size="300,30" zPosition="1" font="Regular;24" foregroundColor="#49bbff" backgroundColor="#000000" transparent="1"  />
+	<!-- ForeCast 2Day Temp Heigh -->
+	<widget name="lab19"    position="930,265"  halign="left" size="65,28" font="Regular;20" foregroundColor="white" backgroundColor="#000000" transparent="1" zPosition="1" />
+	<widget name="lab19b"   position="1000,265" halign="left" size="90,28" font="Regular;20" foregroundColor="red"   backgroundColor="#000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 2Day Temp Low -->
+	<widget name="lab20"    position="1090,265" halign="left" size="65,28" font="Regular;20" foregroundColor="white" backgroundColor="#000000" transparent="1" zPosition="1" />
+	<widget name="lab20b"   position="1150,265" halign="left" size="90,28" font="Regular;20" foregroundColor="blue"  backgroundColor="#000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 3Day Pic -->
+	<widget name="3lab22"   position="830,310" size="80,70" alphatest="blend" transparent="1" zPosition="1" />
+	<!-- ForeCast 3Day Day -->
+	<widget name="3lab18"   position="930,315"  halign="left"  size="430,40" font="Regular;22" foregroundColor="white"     backgroundColor="#000000"   transparent="1" zPosition="1" />
+        <!-- ForeCast 3Day Date -->
+	<widget name="daydate2" position="1020,315" halign="right" size="200,40" font="Regular;22" foregroundColor="yellow"    backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 3Day Description -->
+	<widget name="3lab21"   position="930,345"  halign="left"  size="500,40" font="Regular;22" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 3Day Temp Heigh -->
+	<widget name="3lab19"   position="930,375"  halign="left"  size="65,28"  font="Regular;20" foregroundColor="white"     backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<widget name="3lab19b"  position="1000,375" halign="left"  size="90,28"  font="Regular;20" foregroundColor="red"       backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 3Day Temp Low -->
+	<widget name="3lab20"   position="1090,375" halign="left"  size="65,28"  font="Regular;20" foregroundColor="white"     backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<widget name="3lab20b"  position="1150,375" halign="left"  size="90,28"  font="Regular;20" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 4Day Pic -->
+	<widget name="4lab22"   position="830,420" size="80,70" alphatest="blend" transparent="1" zPosition="1" />
+	<!-- ForeCast 4Day Day -->
+	<widget name="4lab18"   position="930,425"  halign="left"  size="430,40" font="Regular;22" foregroundColor="white"     backgroundColor="#000000"   transparent="1" zPosition="1" />
+        <!-- ForeCast 3Day Date -->
+	<widget name="daydate3" position="1020,425" halign="right" size="200,40" font="Regular;22" foregroundColor="yellow"    backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 4Day Description -->
+	<widget name="4lab21"   position="930,455"  halign="left"  size="500,40" font="Regular;22" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 4Day Temp Heigh -->
+	<widget name="4lab19"   position="930,485"  halign="left"  size="65,28"  font="Regular;20" foregroundColor="white"     backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<widget name="4lab19b"  position="1000,485" halign="left"  size="90,28"  font="Regular;20" foregroundColor="red"       backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 4Day Temp Low -->
+	<widget name="4lab20"   position="1090,485" halign="left"  size="65,28"  font="Regular;20" foregroundColor="white"     backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<widget name="4lab20b"  position="1150,485" halign="left"  size="90,28"  font="Regular;20" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 5Day Pic -->
+	<widget name="5lab22"   position="830,530" size="80,70" alphatest="blend" transparent="1" zPosition="1" />
+	<!-- ForeCast 5Day Day -->
+	<widget name="5lab18"   position="930,535"  halign="left"  size="430,40" font="Regular;22" foregroundColor="white"     backgroundColor="#000000"   transparent="1" zPosition="1" />
+        <!-- ForeCast 4Day Date -->
+	<widget name="daydate4" position="1020,535" halign="right" size="200,40" font="Regular;22" foregroundColor="yellow"    backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 5Day Description -->
+	<widget name="5lab21"   position="930,565"  halign="left"  size="500,40" font="Regular;22" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 5Day Temp Heigh -->
+	<widget name="5lab19"   position="930,595"  halign="left"  size="65,28"  font="Regular;20" foregroundColor="white"     backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<widget name="5lab19b"  position="1000,595" halign="left"  size="90,28"  font="Regular;20" foregroundColor="red"       backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<!-- ForeCast 5Day Temp Low -->
+	<widget name="5lab20"   position="1090,595" halign="left"  size="65,28"  font="Regular;20" foregroundColor="white"     backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<widget name="5lab20b"  position="1150,595" halign="left"  size="90,28"  font="Regular;20" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<!-- BoxSet ButtonColors -->
+	<widget name="lab28b" position="100,651" halign="left" size="330,24" zPosition="1" font="Regular;22" foregroundColor="white" backgroundColor="black" transparent="1" />
+	<widget name="lab28"  position="1790,595" size="16,16" zPosition="1" alphatest="blend" />
+	<widget name="lab28a" position="1800,590" halign="right"  size="20,20" zPosition="1" font="Regular;18" valign="top" foregroundColor="#8F8F8F" backgroundColor="transpBlack" transparent="1" />
+	<ePixmap position="65,653"  pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/redpanel.png"   size="22,22" alphatest="blend" zPosition="2" />
+	<eLabel  text="Change City" position="100,653" size="180,38" font="Regular;22" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<ePixmap position="320,653" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/greenpanel.png" size="22,22" alphatest="blend" zPosition="2" />
+	<eLabel  text="Change Skin" position="355,653" size="180,38" font="Regular;22" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" zPosition="1" />
+	<ePixmap position="860,648" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/select.png" size="45,33" alphatest="blend" zPosition="2" />
+	<ePixmap position="1000,645" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/clock50.png" size="35,35" alphatest="blend" zPosition="2" />
+	<!-- Clock %d.%m.%Y - %H:%M:%S -->
+	<widget source="global.CurrentTime" render="Label" position="975,640" size="250,40" font="Regular;38" halign="right" foregroundColor="#505050" backgroundColor="#10000000" transparent="1" zPosition="1" >
+		<convert type="ClockToText">Format:%H:%M:%S</convert>
+	</widget>
+</screen>
